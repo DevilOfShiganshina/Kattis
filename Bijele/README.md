@@ -35,8 +35,8 @@ remove. If a number is positive, Mirko needs to add\
 that many pieces. If a number is negative, Mirko needs\
 to remove pieces.
 
-Sample Input 1	            Sample Output 1
+Sample Input 1	            Sample Output 1\
 0 1 2 2 2 7                 1 0 0 0 0 1
 
-Sample Input 2	            Sample Output 2
+Sample Input 2	            Sample Output 2\
 2 1 2 1 2 1                  -1 0 0 1 0 7
