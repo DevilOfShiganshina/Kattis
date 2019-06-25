@@ -1,1 +1,1 @@
-# Accepted solutions to problems found on Kattis
+# Accepted solutions to problems found on [Kattis](https://open.kattis.com/problems)
