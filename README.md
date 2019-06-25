@@ -1,1 +1,1 @@
-# This repo contains my solution to problems from Kattis
+# Accepted solutions to problems found on Kattis
