@@ -1,4 +1,4 @@
-# <center> Rational Sequence</center>
+# Rational Sequence
 
 A sequence of positive rational numbers is defined as follows:
 
@@ -17,7 +17,7 @@ The top of the tree is shown in the following figure:
 The sequence is defined by doing a level order (breadth first) traversal of the tree\
 (indicated by the light dashed line). So that:
 
-<center>F(1)=1/1,F(2)=1/2,F(3)=2/1,F(4)=1/3,F(5)=3/2,F(6)=2/3,…</center>
+F(1)=1/1,F(2)=1/2,F(3)=2/1,F(4)=1/3,F(5)=3/2,F(6)=2/3,…
 
 Write a program to compute the nth element of the sequence, F(n). Does this problem sound familiar? Well it\
 should! We had variations of this problem at the 2014 and 2015 GreaterNY ACM ICPC Regionals.
