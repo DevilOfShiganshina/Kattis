@@ -33,16 +33,12 @@ should be ignored.
 | ---                               | ---                     |
 | 1                                 | smile                   |
 | Simon says smile.                 |                         |
-
-| Sample Input                      | Sample Output           |
-| ---                               | ---                     |
+|                                   |                         |
 | 3                                 | raise your right hand.  |
 | Simon says raise your right hand. | raise your left hand.   |
 | Lower your right hand.            |                         |
 | Simon says raise your left hand.  |                         |
-
-| Sample Input                      | Sample Output           |
-| ---                               | ---                     |
+|                                   |                         |
 | 3                                 | raise your left hand    |
 | Raise your right hand.            |                         |
 | Lower your right hand.            |                         |
