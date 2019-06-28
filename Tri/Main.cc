@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-std::string equation(int a, int b, int c) {
+std::string equation(short a, short b, short c) {
   if (a + b == c) {
     return std::to_string(a) + "+" + std::to_string(b) + "=" + std::to_string(c);
   } else if (b + c == a) {
