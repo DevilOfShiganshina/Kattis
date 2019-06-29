@@ -26,3 +26,9 @@ followed by an uppercase letter. All other characters will be lowercase letters.
 ## Output
 
 The first and only line of output should contain the appropriate short variation.
+
+| Sample Input        | Sample Output |
+| ---                 | ---           |
+| Knuth-Morris-Pratt  | KMP           |
+| Mirko-Slavko        | MS            |
+| Pasko-Patak         | PP            |
