@@ -2,9 +2,7 @@
 
 int main() {
   int people, chicken, difference;
-
   std::cin >> people >> chicken;
-
   difference = chicken - people;
 
   if (difference > 0) {
@@ -16,8 +14,7 @@ int main() {
   } if (difference < 0) {
     if (difference == -1) {
       std::cout << "Dr. Chaz needs " << -difference << " more piece of chicken!" << std::endl;  
-    }
-    else {
+    } else {
       std::cout << "Dr. Chaz needs " << -difference << " more pieces of chicken!" << std::endl;
     }
   }
