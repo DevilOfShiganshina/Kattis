@@ -1,5 +1,4 @@
 #include <iostream>
-#define mult(a, b) a * b;
 
 int main() {
   long long N;
@@ -10,7 +9,7 @@ int main() {
     std::cin >> p >> r >> f;
     long long count = 0;
     while (p <= f) {
-      p = mult(p, r);
+      p = p * r;
       count++;
     }
 
