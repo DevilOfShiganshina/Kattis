@@ -1,3 +1,5 @@
+# Akcija
+
 There is a promotional offer in a bookstore “Take 3, pay for the 2 more expensive ones”. So, each customer who\
 picks 3 books gets the cheapest one for free. Of course, the customer can take even more books and, depending on\
 the way the books are arranged into groups of three, get the cheapest one in each group for free.
