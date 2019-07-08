@@ -30,7 +30,7 @@ For each of the test cases output a single line with a single word "YES" if the 
 | Sample Input | Sample Output |
 | ---          | ---           |
 | 2            | YES           |
-|              |               |
+|              | NO            |
 | 5            |               |
 | 5            |               |
 | 2            |               |
