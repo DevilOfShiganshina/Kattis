@@ -7,9 +7,7 @@ int main() {
   if (n == m) {
     std::cout << ++n << std::endl;
   } else {
-    short start = std::min(n, m) + 1;
-    short end = start + abs(n - m) + 1;
-    for (short i = start; i < end; i++) {
+    for (short i = std::min(n, m) + 1; i < (std::min(n, m) + 1) + (abs(n - m) + 1); i++) {
       std::cout << i << std::endl;
     }
   } return 0;
