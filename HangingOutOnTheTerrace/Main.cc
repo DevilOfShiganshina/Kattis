@@ -12,9 +12,9 @@ int main() {
     
     if (action == "enter") {
       if (total + in > limit) {
-	denied++;
+	      denied++;
       } else {
-	total += in;
+	      total += in;
       }
     } else {
       total -= in;      
