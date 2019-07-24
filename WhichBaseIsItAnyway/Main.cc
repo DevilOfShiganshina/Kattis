@@ -15,7 +15,7 @@ int octal_to_decimal(int num) {
   } return retval;
 }
 
-int hex_to_decimal(int num) {
+int decimal_to_hex(int num) {
   int retval = 0;
   int base = 1;
 
@@ -33,7 +33,7 @@ int main() {
   for (short i = 0; i < n; i++) {
     short cnum; int num;
     std::cin >> cnum >> num;
-    std::cout << cnum << " " << octal_to_decimal(num) << " " << num << " " << hex_to_decimal(num) << std::endl;
+    std::cout << cnum << " " << octal_to_decimal(num) << " " << num << " " << decimal_to_hex(num) << std::endl;
   }
 
   return 0;
