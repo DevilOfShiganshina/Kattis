@@ -21,14 +21,20 @@ solely of characters with ASCII codes between 33 and 126 (inclusive).
 Output four lines, containing the ratios of whitespace characters, lowercase letters, uppercase letters, and symbols\
 (in that order). Your answer should have an absolute or relative error of at most 10<sup>−6</sup>.
 
-| Sample Input                                    | Sample Output         |
-| ---                                             | ---                   |
-| `Welcome_NWERC_participants!`                   | `0.0740740740740741`  |
-|                                                 | `0.666666666666667`   |
-|                                                 | `0.222222222222222`   |
-|                                                 | `0.0370370370370370`  |
-|                                                 |                       |
-| ` \/ \/in_US$100000_in_our_Ca$h_Lo||ery!!! `    | `0.128205128205128`   |
-|                                                 | `0.333333333333333`   |
-|                                                 | `0.102564102564103`   |
-|                                                 | `0.435897435897436`   |
+```
+
+Welcome_NWERC_participants!
+
+0.0740740740740741
+0.666666666666667
+0.222222222222222
+0.0370370370370370
+
+\/\/in_US$100000_in_our_Ca$h_Lo||ery!!!
+
+0.128205128205128
+0.333333333333333
+0.102564102564103
+0.435897435897436
+
+```
