@@ -9,7 +9,7 @@ int main(void) {
     short deciphered_char = ((int(ciphertext[i] - 65) - int(key[i] - 65)) % 26);
     if (deciphered_char < 0) { deciphered_char += 26; }
     ciphertext[i] = char('A' + (deciphered_char % 26));
-    key += char('A' + (deciphered_char % 26));
+    key += ciphertext[i];
   } std::cout << ciphertext << std::endl;
   return 0;
 }
