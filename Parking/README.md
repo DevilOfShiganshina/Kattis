@@ -1,0 +1,1 @@
+# [Parking](https://open.kattis.com/problems/parking2)
