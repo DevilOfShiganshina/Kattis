@@ -1,2 +1,2 @@
 all:
-	g++ Main.cc -o exe
+	g++ -o exe Main.cc

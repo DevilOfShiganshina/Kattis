@@ -1,40 +1,80 @@
 #include <iostream>
 #include <vector>
+#include <unordered_set>
 #define pb push_back
 
-std::vector<short> twoSum(short a[], short size, short value) {
-  std::vector<short> retval;
+//===========================================================================================
+//                                    TYPEDEFS
+//===========================================================================================
 
-  for (short i = 0; i < size; i++) {
-    for (short j = 0; j < size; j++) {
-      if (i == j) { continue; }
-      else if (a[i] + a[j] == value) {
-        retval.pb(i);
-        retval.pb(j);
-        return retval;
-      }
+typedef unsigned short us;
+
+//===========================================================================================
+//                                    PROTOTYPES
+//===========================================================================================
+
+void program(void);
+void twoSum(std::vector<us>, us k, us &, us &);
+void print(std::vector<us>, us, us);
+
+//===========================================================================================
+//                                    MAIN
+//===========================================================================================
+
+int main(void) {
+  program();
+  return 0;
+}
+
+//===========================================================================================
+//                                    PROGRAM
+//===========================================================================================
+
+void program(void) {
+  std::vector<us> input;
+  us k = 0;
+
+  for (us i = 0; i < 9; ++i) {
+    us in;
+    std::cin >> in;
+    input.pb(in);
+    k += in;
+  } k = k - 100;
+
+  us x = 0, y = 0;
+  twoSum(input, k, x, y);
+  print(input, x, y);
+  return;
+}
+
+//===========================================================================================
+//                                    TWOSUM
+//===========================================================================================
+
+void twoSum(std::vector<us> input, us k, us &x, us &y) {
+  std::unordered_set<us> seen;
+
+  for (us i = 0; i < input.size(); ++i) {
+    if (seen.find(k - input[i]) != seen.end()) {
+      x = k - input[i];
+      y = input[i];
+    }
+    else {
+      seen.insert(input[i]);
     }
   }
 }
 
-int main() {
-  short a[9];
-  short total = 0;
-  
-  for (short i = 0; i < 9; i++) {
-    std::cin >> a[i];
-    total += a[i];
-  } short diff = total - 100;
-  
-  std::vector<short> retval = twoSum(a, 9, diff);
-  
-  for (short i = 0; i < 9; i++) {
-    if (i == retval[0] || i == retval[1]) {
-      continue;
-    } else {
-      std::cout << a[i] << std::endl;
+//===========================================================================================
+//                                    PRINT
+//===========================================================================================
+
+void print(std::vector<us> input, us x, us y) {
+  for (us i = 0; i < input.size(); ++i) {
+    if (input[i] == x || input[i] == y) continue;
+
+    else {
+      std::cout << input[i] << std::endl;
     }
   }
-
-  return 0;
 }
